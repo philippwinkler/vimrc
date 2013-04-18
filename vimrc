@@ -102,3 +102,6 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
 		  \ | wincmd p | diffthis
 endif
+
+let g:EasyMotion_leader_key = '<Leader>'
+let g:EasyMotion_mapping_t = '<C-T>b'
